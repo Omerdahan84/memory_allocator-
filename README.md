@@ -91,10 +91,4 @@ Allocator freed successfully.
 - **Parameters**:
   - `Allocator* obj`: Pointer to the allocator.
 
-## Test Cases
 
-The `main` function includes several test cases that demonstrate the allocator's functionality:
-
-1. **Creating an Allocator**: Initializes the allocator with 100 bytes.
-2. **Allocating Memory**: Allocates memory blocks with different sizes and `mID`s.
-3
