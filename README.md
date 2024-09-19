@@ -8,7 +8,7 @@ The program provides a custom memory allocator that can:
 
 - Allocate memory blocks of a specified size.
 - Free memory blocks based on a memory ID (`mID`).
-- Keep track of allocated memory blocks using a sorted linked list for efficient memory management.
+- Keep track of allocated memory blocks using a linked list for memory management. (I'm looking forward to improve the effciency using hashmaps).
 
 This allocator is not intended for production use but serves as an educational example of how memory management can be implemented at a low level in C.
 
